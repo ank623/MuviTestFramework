@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Muvi Suite">
+
+
+  <test name="Muvi test">
+  
+  
+  
+     <classes>
+         <class name="com.muvi.testCases.RegisterTest"/>
+         <class name="com.muvi.testCases.ManageContentTest"/>
+         <class name="com.muvi.testCases.VerifyContentTest"/>
+     </classes>
+     
+     
+  </test>
+  
+</suite>

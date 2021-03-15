@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Muvi Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Muvi test(failed)">
+    <classes>
+      <class name="com.muvi.testCases.ManageContentTest">
+        <methods>
+          <include name="addContentTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.muvi.testCases.ManageContentTest -->
+    </classes>
+  </test> <!-- Muvi test(failed) -->
+</suite> <!-- Failed suite [Muvi Suite] -->
